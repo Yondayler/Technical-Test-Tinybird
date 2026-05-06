@@ -19,7 +19,7 @@ El proyecto está organizado en 4 componentes principales:
    pip install -r requirements.txt
    ```
 
-## 📈 Ejecución de Pruebas
+## Ejecución de Pruebas
 
 Para validar toda la solución de forma automática, se ha incluido un suite de pruebas que ejecuta secuencialmente todas las partes:
 
@@ -33,7 +33,7 @@ También puedes ejecutar cada parte de forma independiente:
 - **Métricas**: `python3 app/part2/metrics_runner.py`
 - **API**: `python3 app/part3/api_runner.py`
 
-## 💡 Decisiones Técnicas
+## Decisiones Técnicas
 - **Pydantic**: Elegido para asegurar la integridad de los datos de forma declarativa.
 - **Deduplicación**: Implementada mediante seguimiento de estados en memoria (Set), simulando la lógica de `ReplacingMergeTree` de ClickHouse.
 - **Modularidad**: Cada parte es independiente, permitiendo su fácil integración en pipelines de datos reales o funciones serverless.
