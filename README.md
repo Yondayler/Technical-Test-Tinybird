@@ -11,7 +11,7 @@ El proyecto está organizado en 4 componentes principales:
 - **Parte 3: API Handler**: Lógica de filtrado dinámico (país, fechas) sin el uso de frameworks externos, simulando el comportamiento de un endpoint de Tinybird.
 - **Parte 4: Diseño y Arquitectura**: Documentación técnica sobre cómo escalar esta solución en producción utilizando Tinybird/ClickHouse.
 
-## 🛠️ Requisitos e Instalación
+## Requisitos e Instalación
 
 1. **Python 3.8+**
 2. **Instalar dependencias**:
